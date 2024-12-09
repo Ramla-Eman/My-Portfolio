@@ -1,0 +1,47 @@
+@media (max-width: 768px) {
+    html{
+        font-size: 50%;
+    }
+    .sidebar {
+        width: 0;
+        overflow: hidden;
+    }
+
+    .sidebar.open {
+        width: 70px;
+    }
+
+    .toggle-btn {
+        display: block;
+    }
+
+    .hero-section{
+        flex-direction: column;
+    }
+
+    .section1{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .section1 h3{
+        width: 100%;
+        font-size: 2.5rem;
+    }
+    .section1 .aboutme{
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .section3 .section3-cards .card{
+        width: 30rem;
+        height: 25rem;
+    }
+
+    .section3 .section3-cards .card .percent,
+    .section3 .section3-cards .card .percent svg{
+        width: 20rem;
+        height: 20rem;
+    }
+}

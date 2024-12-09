@@ -31,10 +31,11 @@ nav {
     width: 50%;
 }
 
-.logo p {
+.logo p a {
     font-size: 3rem;
     font-family: "Anton SC", sans-serif;
     color: #fff;
+    text-decoration: none;
 }
 
 nav #search-bar {
@@ -217,7 +218,7 @@ nav #search-bar i {
 
 .sidebar .icon:hover::before {
     transform: scale(1);
-    opacity: 1;
+    opacity: 50%;
 }
 
 /* Toggle button for mobile */
@@ -342,6 +343,20 @@ nav #search-bar i {
     font-size: 2rem;
     color: #a01922;
     text-decoration: none;
+}
+
+.section2 p{
+   margin-top: 3rem;
+}
+
+.section2 p a{
+    text-decoration: none;
+    color: #a01922;
+    font-size: 2rem;
+}
+
+.section2 p a:hover{
+    text-decoration: underline;
 }
 
 
@@ -709,3 +724,12 @@ footer .mention-line a:hover {
     color: #656565;
     text-decoration: underline;
 }
+
+h4 {
+    font-size: 4rem;
+    color: #1D1D1D;
+    -webkit-text-stroke: 1px #656565;
+    text-decoration: underline;
+    margin: 2rem;
+}
+

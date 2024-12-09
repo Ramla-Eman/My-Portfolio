@@ -1,7 +1,8 @@
 @media (max-width: 768px) {
-    html{
+    html {
         font-size: 50%;
     }
+
     .sidebar {
         width: 0;
         overflow: hidden;
@@ -15,33 +16,166 @@
         display: block;
     }
 
-    .hero-section{
+    .hero-section {
         flex-direction: column;
     }
 
-    .section1{
+    .hero-section .hero-content,
+    .hero-section .hero-content .hero-quote {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-text-content {
+        font-size: 6rem;
+    }
+
+    .hero-section .hero-img {
+        width: 70%;
+        display: flex;
+        align-items: center;
+    }
+
+    .section1 {
         flex-direction: column;
         justify-content: center;
         text-align: center;
     }
 
-    .section1 h3{
+    .section1 h3 {
         width: 100%;
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
-    .section1 .aboutme{
+
+    .section1 .aboutme {
         width: 100%;
         font-size: 1rem;
     }
 
-    .section3 .section3-cards .card{
+    .section3 .section3-cards .card {
         width: 30rem;
         height: 25rem;
     }
 
     .section3 .section3-cards .card .percent,
-    .section3 .section3-cards .card .percent svg{
+    .section3 .section3-cards .card .percent svg {
         width: 20rem;
         height: 20rem;
+    }
+
+    .section5 .contect-section {
+        flex-direction: column;
+    }
+
+    .section5 .contect-section .section5-content,
+    .section5 .contect-section form {
+        width: 100%;
+        align-items: center;
+    }
+}
+
+@media (max-width: 430px) {
+    html {
+        font-size: 35%;
+    }
+
+    .section1 .aboutme {
+        padding: 1rem 20;
+    }
+
+    .section3 .section3-cards .card .percent,
+    .section3 .section3-cards .card .percent svg {
+        width: 26rem;
+        height: 26rem;
+    }
+
+    .section3 .section3-cards .card {
+        width: 40rem;
+        height: 35rem;
+    }
+
+    .hero-text-content {
+        font-size: 5rem;
+    }
+
+    .connect-btn {
+        width: 100%;
+    }
+
+    .section2 .work-cards .card .card-content,
+    .section2 .work-cards .card .card-content h3 {
+        font-size: 3rem;
+    }
+
+    .section5 {
+        padding: 2rem 3rem;
+    }
+
+    .section5 .contect-section form input,
+    .section5 .contect-section form textarea {
+        width: 90%;
+    }
+}
+
+@media (max-width: 375px) {
+    html {
+        font-size: 30%;
+    }
+
+    .section3 .section3-cards .card .percent,
+    .section3 .section3-cards .card .percent svg {
+        width: 31rem;
+        height: 31rem;
+    }
+
+    .section3 .section3-cards .card {
+        width: 50rem;
+        height: 45rem;
+    }
+
+    .section2 {
+        padding: 5rem 3rem;
+
+    }
+
+    .section2 .work-cards .card {
+        height: 320px;
+    }
+}
+
+@media (max-width: 320px) {
+    html {
+        font-size: 28%;
+    }
+
+    .section3 .section3-cards .card .percent,
+    .section3 .section3-cards .card .percent svg {
+        width: 35rem;
+        height: 34rem;
+    }
+
+    .section3 .section3-cards .card {
+        width: 55rem;
+        height: 50rem;
+    }
+
+    .section2 .work-cards .card img {
+        width: 293px;
+    }
+
+    .sidebar .icon i {
+        font-size: 4rem;
+    }
+
+    .hero-text-content {
+        font-size: 4rem;
+    }
+
+    .main-section{
+        padding: 7rem 8rem;
+    }
+
+    .hero-section .hero-content .hero-quote{
+        margin-top: 5rem;
     }
 }

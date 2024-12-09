@@ -15,6 +15,7 @@ html {
 body {
     height: auto;
     width: 100%;
+    background: #222222 !important;
 }
 
 nav {
@@ -33,6 +34,7 @@ nav {
 .logo p {
     font-size: 3rem;
     font-family: "Anton SC", sans-serif;
+    color: #fff;
 }
 
 nav #search-bar {
@@ -47,8 +49,9 @@ nav #search-bar input[type="text"] {
     width: 100%;
     font-size: 2rem;
     height: 3rem;
+    padding-left: 1rem;
     border: none;
-    border-bottom: 1px solid #6C5962;
+    border-bottom: 1px solid #656565;
     border-radius: 10px;
     background: none;
     outline: none;
@@ -61,27 +64,25 @@ nav #search-bar input[type="text"]::placeholder {
 
 nav #search-bar i {
     font-size: 3rem;
-    color: #fff;
+    color: #731F24;
 }
 
 .main-section {
     width: 100%;
-    background: #F9F9F1;
-    padding: 2rem 10rem;
+    padding: 2rem 15rem;
 }
 
 .hero-section {
     width: 100%;
     height: auto;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     gap: 1rem;
 }
 
 .hero-section .hero-content {
     width: 60%;
-    color: #6C5962;
+    color: #656565;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -91,58 +92,61 @@ nav #search-bar i {
 .hero-section .hero-content .hero-quote {
     width: 70%;
     font-size: 2rem;
-    margin-top: 10rem;
+    margin-top: 35rem;
+    color: #fff;
+    opacity: 70%;
 }
 
 .connect-btn {
-    width: 35%;
+    width: 25%;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    justify-content: center;
+    gap: 1rem;
     font-size: 3rem;
-    color: #6C5962;
+    border-radius: 10px;
+    background: #fff;
+    color: #656565;
 }
 
 .connect-btn button {
-    width: 5rem;
-    height: 5rem;
-    padding: 1rem;
     border: none;
-    border-radius: 50%;
-    background: linear-gradient(to bottom, #F9D57D, #6C5962);
-    color: #fff;
+    color: #656565;
     font-size: 2rem;
 }
 
 .connect-btn button:hover {
     transform: rotateZ(45deg);
-    background: linear-gradient(to bottom, #F9D57D, #6C5962);
 }
 
 
 .hero-text-content {
-    font-size: 7rem;
+    font-size: 6rem;
     font-weight: bold;
     color: transparent;
-    text-align: center;
+    opacity: 90%;
     position: absolute;
     transition: transform 0.1s ease-out, box-shadow 0.2s ease-in-out;
     white-space: wrap;
+}
+
+.hero-text-content span {
+    font-size: 10rem;
     font-family: "Anton SC", sans-serif;
 }
 
 .text1 {
-    -webkit-text-stroke: 1px #6C5962;
+    -webkit-text-stroke: 1px #656565;
     z-index: 1;
 }
 
 .text2 {
-    -webkit-text-stroke: 1px #6C5962;
+    -webkit-text-stroke: 1px #656565;
     z-index: 2;
 }
 
 .text3 {
-    color: #F9D57D;
+    color: #fff;
     z-index: 3;
 }
 
@@ -171,7 +175,7 @@ nav #search-bar i {
     left: 0;
     width: 70px;
     height: 50%;
-    background-color: #F9D57D;
+    background-color: #1D1D1D;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -195,7 +199,7 @@ nav #search-bar i {
 
 .sidebar .icon i {
     font-size: 3rem;
-    color: #6C5962;
+    color: #731F24;
 }
 
 .sidebar .icon::before {
@@ -203,7 +207,7 @@ nav #search-bar i {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #D1AD8D;
+    background-color: #fff;
     border-radius: 50%;
     z-index: -1;
     transition: transform 0.3s ease, opacity 0.3s ease;
@@ -222,8 +226,8 @@ nav #search-bar i {
     top: 90px;
     left: 0;
     z-index: 2000;
-    background-color: #8d99ae;
-    color: #edf2f4;
+    background-color: #656565;
+    color: #731F24;
     padding: 8px 25px;
     border: none;
     border-top-right-radius: 10px;
@@ -237,16 +241,15 @@ nav #search-bar i {
     width: 100%;
     height: auto;
     padding: 1rem 10rem;
-    background: #6C5962;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 10px;
 }
 
 .section1 h3 {
     width: 35%;
-    color: #F9D57D;
+    color: #fff;
+    opacity: 80%;
     font-size: 5rem;
 }
 
@@ -258,22 +261,22 @@ nav #search-bar i {
 }
 
 .section1 p {
-    color: #fff;
+    color: #656565;
     font-size: 2.3rem;
 
 }
 
 .section1 q {
-    color: #D1AD8D;
+    color: #fff;
     font-size: 2.8rem;
     text-decoration: underline;
+    opacity: 70%;
 }
 
 .section2 {
     width: 100%;
     height: auto;
     padding: 5rem 10rem;
-    background: #D1AD8D;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -293,7 +296,7 @@ nav #search-bar i {
 .section2 .work-cards .card {
     width: 300px;
     height: 380px;
-    background: #fff;
+    background: #1D1D1D;
     padding-bottom: 2rem;
     display: flex;
     align-items: center;
@@ -322,6 +325,23 @@ nav #search-bar i {
     flex-direction: column;
     gap: 0.2rem;
     font-size: 1.5rem;
+
+}
+
+.section2 .work-cards .card .card-content h3 {
+    font-size: 2rem;
+}
+
+.section2 .work-cards .card .card-content h3,
+.section2 .work-cards .card .card-content p {
+    color: #fff;
+    opacity: 70%;
+}
+
+.section2 .work-cards .card .card-content a {
+    font-size: 2rem;
+    color: #a01922;
+    text-decoration: none;
 }
 
 
@@ -329,7 +349,6 @@ nav #search-bar i {
     width: 100%;
     height: auto;
     padding: 2rem 10rem;
-    background: #6C5962;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -343,8 +362,8 @@ nav #search-bar i {
 .section4 h2,
 .section5 h2 {
     font-size: 8rem;
-    color: #F9D57D;
-    -webkit-text-stroke: 1px #F9D57D;
+    color: #fff;
+    -webkit-text-stroke: 1px #656565;
     font-family: "Anton SC", sans-serif;
 }
 
@@ -369,7 +388,7 @@ nav #search-bar i {
     position: relative;
     width: 22rem;
     height: 25rem;
-    background: #260D0D;
+    background: #1D1D1D;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -461,11 +480,13 @@ nav #search-bar i {
 
 .section3 .section3-cards .card .percent .number h3 {
     font-size: 5rem;
-    color: #F9D57D;
+    color: #fff;
+    
 }
 
 .section3 .section3-cards .card .percent .number p {
     color: #fff;
+    opacity: 70%;
     font-size: 2rem;
 }
 
@@ -474,7 +495,6 @@ nav #search-bar i {
     height: auto;
     padding: 3rem 17rem;
     padding-bottom: 8rem;
-    background: #D1AD8D;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -485,22 +505,25 @@ nav #search-bar i {
 .section4 .accordion {
     width: 100%;
     height: 20rem;
-    background: #6C5962;
+    background: #1D1D1D;
 }
 
 .section4 .accordion .accordion-item {
-    background: #F9D57D;
+    border: 2px solid #1D1D1D;
+    background: #222222;
+    color: #fff;
 }
 
 .section4 .accordion .accordion-item .accordion-collapse {
     font-size: 1.5rem;
+    padding-left: 3rem;
 }
 
 .section4 .accordion .accordion-item .accordion-header .accordion-button {
-    background: #6C5962;
+    color: #fff;
+    background: #1D1D1D;
     font-size: 3rem;
 }
-
 
 .accordion-button {
     width: 100%;
@@ -513,10 +536,8 @@ nav #search-bar i {
 
 .accordion-number {
     margin-right: 15px;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: bold;
-    background: linear-gradient(to bottom, blue, violet);
-    -webkit-background-clip: text;
     color: transparent;
 }
 
@@ -525,7 +546,6 @@ nav #search-bar i {
     height: auto;
     padding: 2rem 12rem;
     display: flex;
-    background: #6C5962;
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
@@ -549,20 +569,22 @@ nav #search-bar i {
     font-size: 2rem;
     display: flex;
     flex-direction: column;
+    gap: 1rem;
 }
 
 .section5 .contect-section .section5-content p:nth-child(1) {
     font-size: 4rem;
-    color: #F9D57D;
+    color: #fff;
 }
 
 .section5 .contect-section .section5-content p i {
-    color: #260D0D;
+    color: #731F24;
     font-size: 2.5rem;
+    margin-right: 1rem;
 }
 
 .section5 .contect-section .section5-content .icons {
-    width: 40%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -570,7 +592,7 @@ nav #search-bar i {
 }
 
 .section5 .contect-section .section5-content .icons a {
-    color: #260D0D;
+    color: #731F24;
     font-size: 3rem;
     text-decoration: none;
 }
@@ -580,18 +602,16 @@ nav #search-bar i {
 }
 
 .section5 .contect-section .section5-content button {
-    width: 40%;
-    padding: 0.5rem 1rem;
-    font-size: 1.8rem;
-    font-weight: bold;
-    background: none;
-    border: 2px solid #260D0D;
+    width: 50%;
+    font-size: 2.5rem;
+    border: none;
     border-radius: 10px;
+    background: #fff;
 }
 
-.section5 .contect-section .section5-content button:hover {
-    background: #260D0D;
-    color: #fff;
+.section5 .contect-section .section5-content button a{
+    text-decoration: none;
+    color: #656565;
 }
 
 .section5 .contect-section form {
@@ -611,7 +631,7 @@ nav #search-bar i {
     background: none;
     border: none;
     outline: none;
-    border-bottom: 2px solid #260D0D;
+    border-bottom: 2px solid #656565;
     border-radius: 10px;
 }
 
@@ -626,30 +646,20 @@ nav #search-bar i {
 
 .section5 .contect-section form button {
     width: 20%;
-    padding: 0.5rem 1rem;
-    font-size: 1.8rem;
-    font-weight: bold;
-    background: none;
-    border: 2px solid #260D0D;
+    font-size: 2rem;
+    border: none;
     border-radius: 10px;
-}
-
-.section5 .contect-section form button:hover {
-    background: #260D0D;
-    color: #fff;
+    background: #fff;
+    color: #656565;
 }
 
 footer {
-    background: #F9D57D;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: #1D1D1D;
     justify-content: center;
     padding: 2rem;
-}
-
-footer .logo {
-    text-align: center;
 }
 
 footer .list {
@@ -666,34 +676,36 @@ footer .list li {
 
 footer .list li a {
     text-decoration: none;
-    color: #260D0D;
+    color: #fff;
     font-size: 1.8rem;
 }
 
 footer .list li a:hover {
-    color: #6C5962;
+    color: #656565;
     text-decoration: underline;
 }
 
 footer hr {
     width: 80%;
     height: 2px;
-    background: #260D0D;
+    background: #fff;
     margin: 2rem 0;
 }
 
 footer .mention-line {
     font-size: 2rem;
-    color: #260D0D;
+    color: #fff;
+    opacity: 70%;
 }
 
 footer .mention-line a {
     text-decoration: none;
-    font-size: 1.8rem;
-    color: #260D0D;
+    font-size: 2.5rem;
+    color: #fff;
 }
 
 footer .mention-line a:hover {
-    color: #6C5962;
+
+    color: #656565;
     text-decoration: underline;
 }

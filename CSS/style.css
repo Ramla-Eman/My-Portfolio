@@ -250,9 +250,19 @@ nav #search-bar i {
 .section1 h3 {
     width: 35%;
     color: #fff;
+    animation: zoom 2s infinite;
     opacity: 80%;
     font-size: 5rem;
 }
+
+@keyframes zoom {
+    0%, 100% {
+      transform: scale(0.8);
+    }
+    50% {
+      transform: scale(1);
+    }
+  }
 
 .section1 .aboutme {
     width: 60%;
@@ -380,6 +390,7 @@ nav #search-bar i {
     color: #fff;
     -webkit-text-stroke: 1px #656565;
     font-family: "Anton SC", sans-serif;
+    transition: transform 0.3s ease;
 }
 
 .section1 h2:hover,
@@ -387,7 +398,16 @@ nav #search-bar i {
 .section3 h2:hover,
 .section4 h2:hover,
 .section5 h2:hover {
-    font-size: 10rem;
+    transform: scale(1.05);
+}
+
+.section1 h2:hover,
+.section2 h2:hover,
+.section3 h2:hover,
+.section4 h2:hover,
+.section5 h2:hover {
+    font-size: 9rem;
+    text-shadow: 0 3px 5px #fff;
 }
 
 .section3 .section3-cards {
@@ -408,6 +428,11 @@ nav #search-bar i {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.section3 .section3-cards .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .section3 .section3-cards .card .percent {

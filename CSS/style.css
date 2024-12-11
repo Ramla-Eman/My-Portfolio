@@ -65,7 +65,7 @@ nav #search-bar input[type="text"]::placeholder {
 
 nav #search-bar i {
     font-size: 3rem;
-    color: #731F24;
+    color: #fffbfbbe;
 }
 
 .main-section {
@@ -200,7 +200,7 @@ nav #search-bar i {
 
 .sidebar .icon i {
     font-size: 3rem;
-    color: #731F24;
+    color: #ffffff;
 }
 
 .sidebar .icon::before {
@@ -218,7 +218,7 @@ nav #search-bar i {
 
 .sidebar .icon:hover::before {
     transform: scale(1);
-    opacity: 50%;
+    opacity: 20%;
 }
 
 /* Toggle button for mobile */
@@ -228,7 +228,7 @@ nav #search-bar i {
     left: 0;
     z-index: 2000;
     background-color: #656565;
-    color: #731F24;
+    color: #fff;
     padding: 8px 25px;
     border: none;
     border-top-right-radius: 10px;
@@ -341,7 +341,7 @@ nav #search-bar i {
 
 .section2 .work-cards .card .card-content a {
     font-size: 2rem;
-    color: #a01922;
+    color: #f10f1e;
     text-decoration: none;
 }
 
@@ -351,7 +351,7 @@ nav #search-bar i {
 
 .section2 p a{
     text-decoration: none;
-    color: #a01922;
+    color: #f00f1e;
     font-size: 2rem;
 }
 
@@ -593,7 +593,7 @@ nav #search-bar i {
 }
 
 .section5 .contect-section .section5-content p i {
-    color: #731F24;
+    color: #fffbfbbe;
     font-size: 2.5rem;
     margin-right: 1rem;
 }
@@ -607,7 +607,7 @@ nav #search-bar i {
 }
 
 .section5 .contect-section .section5-content .icons a {
-    color: #731F24;
+    color: #fffbfbbe;
     font-size: 3rem;
     text-decoration: none;
 }
